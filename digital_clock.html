@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>A JavaScript Clock</title>
+<title>Digital Clock</title>
 <script type="text/javascript">
 window.onload = initClock;
  
@@ -13,6 +13,7 @@ function initClock() {
   var hr  = now.getHours();
   var min = now.getMinutes();
   var sec = now.getSeconds();
+	// to insert leading zero for single digit. even without this, it works fine
   if (min < 10) min = "0" + min;  // insert a leading zero
   if (sec < 10) sec = "0" + sec;
   document.getElementById('clockDisplay').innerHTML
