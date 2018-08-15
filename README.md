@@ -1,2 +1,2 @@
-# JavaScript-Apllications
+# JavaScript-Applications
 Simple web applications using javascript
